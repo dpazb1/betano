@@ -832,6 +832,20 @@ input, select, textarea {
 		opacity: 1.0;
 	}
 
+.pasos {
+	width: 100%;
+	height: 100%;
+	border: solid #866193 3px;
+	border-radius: 5px;
+}
+
+.messi {
+	width: 50%;
+	height: 50%; 
+}
+
+
+
 /* Icon */
 
 	.icon {
@@ -892,7 +906,7 @@ input, select, textarea {
 		}
 
 		.image.filtered.tinted:after {
-			background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25)), linear-gradient(0deg, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.125));
+			background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(123, 119, 133, 0.25) 25%, rgba(115, 113, 113, 0.25) 50%, rgba(222, 213, 199, 0.25)), linear-gradient(0deg, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.125));
 			background-size: 128px 128px, auto, auto;
 		}
 
@@ -1219,7 +1233,7 @@ input, select, textarea {
 				width: 6rem;
 				height: 6rem;
 				line-height: 6rem;
-				border-radius: 6rem;
+				border-radius: 0rem;
 				box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.25);
 				font-size: 2.5rem;
 				margin: 0 auto;
@@ -2195,7 +2209,7 @@ input, select, textarea {
 		}
 
 			.panel > *.color0 {
-				background-image: url("../../images/overlay.png"), linear-gradient(45deg, #726193 20%, #e37b7c 60%, #ffe4b4);
+				background-image: url("../../images/overlay.png"),  linear-gradient(45deg, #464646 20%, #6d6c6c 60%, #464646);
 				background-size: 128px 128px, auto;
 			}
 
@@ -2660,7 +2674,7 @@ input, select, textarea {
 		}
 
 		.panel.small .span-7, .panel.medium .span-7, .panel.large .span-7 {
-			width: 70%;
+			width: 55%;
 		}
 
 		.panel.small .span-7-25, .panel.medium .span-7-25, .panel.large .span-7-25 {
@@ -2712,7 +2726,7 @@ input, select, textarea {
 		}
 
 		.panel.color0 {
-			background-image: url("../../images/overlay.png"), linear-gradient(45deg, #726193 20%, #e37b7c 60%, #ffe4b4);
+			background-image: url("../../images/overlay.png"), linear-gradient(45deg, #ffffff 20%, #292929 60%, #ffe4b4);
 			background-size: 128px 128px, auto;
 		}
 
